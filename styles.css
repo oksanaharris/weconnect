@@ -110,7 +110,7 @@ p {
 }
 
 .problemDesc {
-  padding-left: 10%;
+  padding-left: 5%;
 }
 
 .postitcompImg {
@@ -139,7 +139,7 @@ p {
 
 .badIdeaImg {
   height: 300px;
-  width: 400px;
+  width: 450px;
   background-image: url(weconnect-3.jpg);
   background-size: 100% 100%;
   min-width: 450px;
@@ -572,6 +572,15 @@ p {
   color: white;
 }
 
+.affinityMapImg{
+  height: 320px;
+  width: 450px;
+  background-image: url(affinityMap.jpg);
+  background-size: 100% 100%;
+  min-width: 450px;
+  margin-left: 5%;
+}
+
 @media screen and (max-width: 1001px) {
   .crimsonTide {
     padding: 60px 10% 150px 10%;
@@ -588,8 +597,8 @@ p {
   .themeContainer, .problemContainer, .interviewContainer, .processContainer, .solutionContainer, .wireframesContainer {
     display: flex;
     flex-direction: column;
-    /*justify-content: space-around;*/
-    align-items: center;
+    justify-content: center;
+    /*align-items: center;*/
   }
 
   .processContainer {
@@ -666,306 +675,313 @@ p {
  }
 
  .problemDesc {
-  padding-left: 10%;
-}
+    padding-left: 10%;
+  }
 
-.postitcompImg {
-  height: 550px;
-  width: 700px;
-  background-image: url(weconnect-1.jpg);
-  background-size: 100% 100%;
-  min-width: 700px;
-}
-
-.interviewDesc {
-  width: 70%;
-}
-
-.walkinghomeImg {
-  height: 535px;
-  min-width: 700px;
-  width: 700px;
-  background-image: url('weconnect-4.jpg');
-  background-size: 100% 100%;
-}
-
-.themeP {
-  padding-left: 5%;
-}
-
-.badIdeaImg {
-  height: 550px;
+  .postitcompImg {
+    height: 550px;
     width: 700px;
-  background-image: url(weconnect-3.jpg);
-  background-size: 100% 100%;
-  min-width: 700px;
-}
+    background-image: url(weconnect-1.jpg);
+    background-size: 100% 100%;
+    min-width: 700px;
+  }
 
-.badIdeaDesc {
-  padding-right: 10%;
-  color: white;
-}
+  .interviewDesc {
+    width: 70%;
+  }
 
-.lowFi {
-  height: 480px;
+  .walkinghomeImg {
+    height: 535px;
+    min-width: 700px;
     width: 700px;
-  min-width: 700px;
-  background-image: url(weconnect-5.jpg);
-  background-size: 100% 100%;
-  margin: 20px;
-}
+    background-image: url('weconnect-4.jpg');
+    background-size: 100% 100%;
+  }
 
-.highFi {
-  height: 480px;
+  .themeP {
+    padding-left: 5%;
+  }
+
+  .badIdeaImg {
+    height: 550px;
     width: 700px;
-  min-width: 700px;
-  background-image: url(weconnect-6.jpg);
-  background-size: 100% 100%;
-  margin: 20px;
-}
+    background-image: url(weconnect-3.jpg);
+    background-size: 100% 100%;
+    min-width: 700px;
+  }
 
-.phone {
-  height: 900px;
-  width: 500px;
-  background-image: url('phone.png');
-  background-size: 100% 100%;
-  z-index: 1;
-  /*margin-top: 5px;*/
-}
+  .badIdeaDesc {
+    padding-right: 10%;
+    color: white;
+  }
 
-.mockUp {
-  position: relative;
-  height: 689px;
-  width: 427px;
-  z-index: 2;
-  top: 105px;
-  left: 37px;
-}
+  .lowFi {
+    height: 480px;
+    width: 700px;
+    min-width: 700px;
+    background-image: url(weconnect-5.jpg);
+    background-size: 100% 100%;
+    margin: 20px;
+  }
 
-.statusbar {
-  height: 27px;
-  width: 427px;
-}
+  .highFi {
+    height: 480px;
+    width: 700px;
+    min-width: 700px;
+    background-image: url(weconnect-6.jpg);
+    background-size: 100% 100%;
+    margin: 20px;
+  }
 
-.navBar {
-  height: 65px;
-  width: 427px;
-  padding: 5px 10px;
-}
+  .phone {
+    height: 900px;
+    width: 500px;
+    background-image: url('phone.png');
+    background-size: 100% 100%;
+    z-index: 1;
+    /*margin-top: 5px;*/
+  }
 
-.profile {
-  height: 40px;
-  width: 40px;
-  margin-top: 4px;
-  background-image: url(profile.png);
-  background-size: 100% 100%;
-}
+  .mockUp {
+    position: relative;
+    height: 689px;
+    width: 427px;
+    z-index: 2;
+    top: 105px;
+    left: 37px;
+  }
 
-.logo {
-  font-family: 'Pacifico', cursive;
-  font-size: 40px;
-  line-height: 48px;
-  vertical-align: middle;
-  margin: 0;
-  padding: 0;
-  color: #2d7ad8;
-}
+  .statusbar {
+    height: 27px;
+    width: 427px;
+  }
 
-.menu {
-  height: 50px;
-  width: 50px;
-  background-image: url(menu.png);
-  background-size: 100% 100%;
-  opacity: .7;
-}
+  .navBar {
+    height: 65px;
+    width: 427px;
+    padding: 5px 10px;
+  }
 
-.myStatusBar {
-  height: 110px;
-  width: 427px;
-  padding: 5px 10px;
-  margin-bottom: 20px;
-}
+  .profile {
+    height: 40px;
+    width: 40px;
+    margin-top: 4px;
+    background-image: url(profile.png);
+    background-size: 100% 100%;
+  }
 
-.myPic {
-  height: 90px;
-  width: 90px;
-}
+  .logo {
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+    line-height: 48px;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    color: #2d7ad8;
+  }
 
-.myName {
-  font-size: 44px;
-}
+  .menu {
+    height: 50px;
+    width: 50px;
+    background-image: url(menu.png);
+    background-size: 100% 100%;
+    opacity: .7;
+  }
 
-.slider {
-  height: 40px;
-  width: 95px;
-  border-radius: 20px;
-  background-color: lightgrey;
-  margin-bottom: 3px;
-  border: solid 2px lightgrey;
-  box-sizing: border-box;
-}
+  .myStatusBar {
+    height: 110px;
+    width: 427px;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+  }
 
-.sliderBall {
-  height: 39px;
-  width: 39px;
-  border-radius: 50%;
-  background-color: grey;
-  position: relative;
-  top: -2px;
-  left: -2px;
-  transition-property: left, background-color;
-  transition-duration: 0.1s;
-  transition-timing-function: linear;
-}
+  .myPic {
+    height: 90px;
+    width: 90px;
+  }
 
-.sliderBallOn {
-  left: 54px;
-}
+  .myName {
+    font-size: 44px;
+  }
 
-.status {
-  font-size: 20px;
-}
+  .slider {
+    height: 40px;
+    width: 95px;
+    border-radius: 20px;
+    background-color: lightgrey;
+    margin-bottom: 3px;
+    border: solid 2px lightgrey;
+    box-sizing: border-box;
+  }
 
-.friends {
-  height: 420px;
-  width: 390px;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  padding: 0 10px;
-  justify-content: space-between;
-  box-sizing: border-box;
-  align-items: center;
-  box-shadow: 0 0 10px lightgrey;
-}
+  .sliderBall {
+    height: 39px;
+    width: 39px;
+    border-radius: 50%;
+    background-color: grey;
+    position: relative;
+    top: -2px;
+    left: -2px;
+    transition-property: left, background-color;
+    transition-duration: 0.1s;
+    transition-timing-function: linear;
+  }
 
-.friendLine {
-  margin-top: 5px;
-  padding-bottom: 5px;
-  border-bottom: solid 1px #EAEAEA;
-  width: 100%;
-  height: 100px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
+  .sliderBallOn {
+    left: 54px;
+  }
 
-.friendLine:last-child {
-  border-bottom: none;
-}
+  .status {
+    font-size: 20px;
+  }
 
-.friendLineOne:hover {
-  cursor: pointer;
-}
+  .friends {
+    height: 420px;
+    width: 390px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+    justify-content: space-between;
+    box-sizing: border-box;
+    align-items: center;
+    box-shadow: 0 0 10px lightgrey;
+  }
 
-.friendProfile {
-  height: 90px;
-  width: 90px;
-  background-size: 100% 100%;
-}
+  .friendLine {
+    margin-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: solid 1px #EAEAEA;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
 
-.profileOne {
-  background-image: url('port2.jpg');
-}
+  .friendLine:last-child {
+    border-bottom: none;
+  }
 
-.profileTwo {
-  background-image: url('profile-pic-1.jpg');
-}
+  .friendLineOne:hover {
+    cursor: pointer;
+  }
 
-.profileThree {
-  background-image: url('profile-pic-2.jpg');
-}
+  .friendProfile {
+    height: 90px;
+    width: 90px;
+    background-size: 100% 100%;
+  }
 
-.profileFour {
-  background-image: url('profile-pic-3.jpg');
-}
+  .profileOne {
+    background-image: url('port2.jpg');
+  }
 
-.friendName {
-  font-size: 27px;
-}
+  .profileTwo {
+    background-image: url('profile-pic-1.jpg');
+  }
 
-.friendStatus {
-  height: 40px;
-  width: 40px;
-}
+  .profileThree {
+    background-image: url('profile-pic-2.jpg');
+  }
 
-.popupCorner {
-  position: relative;
-  top: -337px;
-}
+  .profileFour {
+    background-image: url('profile-pic-3.jpg');
+  }
 
-.popup {
-  height: 300px;
-  width: 390px;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  padding: 0 10px;
-  justify-content: space-between;
-  box-sizing: border-box;
-  align-items: center;
-  /*box-shadow: 0 0 10px lightgrey;*/
-  position: relative;
-  top: -338px;
-  background-color: rgba(123, 167, 224,.9);
-}
+  .friendName {
+    font-size: 27px;
+  }
 
-.option {
-  font-size: 26px;
-  color: white;
-  width: 227px;
-  height: 60px;
-  line-height: 50px;
-}
+  .friendStatus {
+    height: 40px;
+    width: 40px;
+  }
 
-.interviewP {
-  color: white;
-  padding-right: 0;
-}
+  .popupCorner {
+    position: relative;
+    top: -337px;
+  }
 
-.themeP {
-  width: 100%;
-  padding-left: 5%;
-  padding-right: 5%;
-}
+  .popup {
+    height: 300px;
+    width: 390px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+    justify-content: space-between;
+    box-sizing: border-box;
+    align-items: center;
+    /*box-shadow: 0 0 10px lightgrey;*/
+    position: relative;
+    top: -338px;
+    background-color: rgba(123, 167, 224,.9);
+  }
 
-.interviewDesc {
-  width: 100%;
-  padding-left: 5%;
-  padding-right: 5%;
-}
+  .option {
+    font-size: 26px;
+    color: white;
+    width: 227px;
+    height: 60px;
+    line-height: 50px;
+  }
 
-.problemDesc {
-  width: 100%;
-  padding-left: 5%;
-  padding-right: 5%;
-}
+  .interviewP {
+    color: white;
+    padding-right: 0;
+  }
 
-.badIdeaDesc {
-  width: 100%;
-  padding-left: 15%;
-  padding-right: 15%;
-}
+  .themeP {
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
 
-.prototypingDesc {
-  width: 100%;
-  padding-left: 5%;
-  padding-right: 5%;
-}
+  .interviewDesc {
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
 
-.emeraldDesc {
-  /*width: 100%;*/
-  font-size: 24px;
-  font-family: 'Karla', sans-serif;
-  padding-left: 5%;
-  padding-right: 5%;
-}
+  .problemDesc {
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
 
-/*.telegram, .sunkissed, .relay, .emeraldWater, .maldives, .chitty {
-  width: 100%;
-}*/
+  .badIdeaDesc {
+    width: 100%;
+    padding-left: 15%;
+    padding-right: 15%;
+  }
 
+  .prototypingDesc {
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .emeraldDesc {
+    /*width: 100%;*/
+    font-size: 24px;
+    font-family: 'Karla', sans-serif;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  /*.telegram, .sunkissed, .relay, .emeraldWater, .maldives, .chitty {
+    width: 100%;
+    }*/
+  .affinityMapImg{
+    height: 420px;
+    width: 650px;
+    min-width: 650px;
+    margin-left: 0;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
 
 
 }
