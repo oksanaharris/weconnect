@@ -435,7 +435,7 @@ p {
 }
 
 .popupContainer {
-  visibility: hidden;
+  visibility: visible;
   animation: popupAppears;
   animation-duration: 8s;
   animation-iteration-count: infinite;
@@ -570,4 +570,402 @@ p {
 
 .emeraldDesc {
   color: white;
+}
+
+@media screen and (max-width: 1001px) {
+  .crimsonTide {
+    padding: 60px 10% 150px 10%;
+  }
+
+  .mainHeading {
+    font-size: 55px;
+  }
+
+  .subHeading {
+    font-size: 30px;
+  }
+
+  .themeContainer, .problemContainer, .interviewContainer, .processContainer, .solutionContainer, .wireframesContainer {
+    display: flex;
+    flex-direction: column;
+    /*justify-content: space-around;*/
+    align-items: center;
+  }
+
+  .processContainer {
+    margin-top: 100px;
+  }
+
+
+  ol {
+    margin-top: 0;
+    width: 50%;
+  }
+
+  li {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    /*color: #2d7ad8;*/
+    color: #82adff;
+    margin-bottom: 19px;
+    margin-left: 45px;
+  }
+
+  li:first-child {
+    margin-top: 20px;
+  }
+
+  .listItem{
+    font-family: 'Karla', sans-serif;
+    font-size: 36px;
+    margin-left: 5px;
+    color: white;
+    opacity: .8;
+  }
+
+  .phoneContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .header {
+    font-family: 'Quicksand', sans-serif;;
+    font-size: 46px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: darkslategrey;
+  }
+
+  .processHeader {
+    /*color: #2d7ad8;*/
+    color: #82adff;
+    font-family: 'Quicksand', sans-serif;;
+    font-size: 56px;
+    margin-bottom: 150px;
+    width: 100%;
+  }
+
+  .themeHeader {
+    color: #C6426E;
+  }
+
+  p {
+    font-family: 'Karla', sans-serif;
+    font-size: 40px;
+    color: darkslategrey;
+  }
+
+  .postitImg{
+   height: 820px;
+   min-width: 650px;
+   width: 650px;
+   background-image: url(weconnect-2.jpg);
+   background-size: 100% 100%;
+
+ }
+
+ .problemDesc {
+  padding-left: 10%;
+}
+
+.postitcompImg {
+  height: 550px;
+  width: 700px;
+  background-image: url(weconnect-1.jpg);
+  background-size: 100% 100%;
+  min-width: 700px;
+}
+
+.interviewDesc {
+  width: 70%;
+}
+
+.walkinghomeImg {
+  height: 535px;
+  min-width: 700px;
+  width: 700px;
+  background-image: url('weconnect-4.jpg');
+  background-size: 100% 100%;
+}
+
+.themeP {
+  padding-left: 5%;
+}
+
+.badIdeaImg {
+  height: 550px;
+    width: 700px;
+  background-image: url(weconnect-3.jpg);
+  background-size: 100% 100%;
+  min-width: 700px;
+}
+
+.badIdeaDesc {
+  padding-right: 10%;
+  color: white;
+}
+
+.lowFi {
+  height: 480px;
+    width: 700px;
+  min-width: 700px;
+  background-image: url(weconnect-5.jpg);
+  background-size: 100% 100%;
+  margin: 20px;
+}
+
+.highFi {
+  height: 480px;
+    width: 700px;
+  min-width: 700px;
+  background-image: url(weconnect-6.jpg);
+  background-size: 100% 100%;
+  margin: 20px;
+}
+
+.phone {
+  height: 900px;
+  width: 500px;
+  background-image: url('phone.png');
+  background-size: 100% 100%;
+  z-index: 1;
+  /*margin-top: 5px;*/
+}
+
+.mockUp {
+  position: relative;
+  height: 689px;
+  width: 427px;
+  z-index: 2;
+  top: 105px;
+  left: 37px;
+}
+
+.statusbar {
+  height: 27px;
+  width: 427px;
+}
+
+.navBar {
+  height: 65px;
+  width: 427px;
+  padding: 5px 10px;
+}
+
+.profile {
+  height: 40px;
+  width: 40px;
+  margin-top: 4px;
+  background-image: url(profile.png);
+  background-size: 100% 100%;
+}
+
+.logo {
+  font-family: 'Pacifico', cursive;
+  font-size: 40px;
+  line-height: 48px;
+  vertical-align: middle;
+  margin: 0;
+  padding: 0;
+  color: #2d7ad8;
+}
+
+.menu {
+  height: 50px;
+  width: 50px;
+  background-image: url(menu.png);
+  background-size: 100% 100%;
+  opacity: .7;
+}
+
+.myStatusBar {
+  height: 110px;
+  width: 427px;
+  padding: 5px 10px;
+  margin-bottom: 20px;
+}
+
+.myPic {
+  height: 90px;
+  width: 90px;
+}
+
+.myName {
+  font-size: 44px;
+}
+
+.slider {
+  height: 40px;
+  width: 95px;
+  border-radius: 20px;
+  background-color: lightgrey;
+  margin-bottom: 3px;
+  border: solid 2px lightgrey;
+  box-sizing: border-box;
+}
+
+.sliderBall {
+  height: 39px;
+  width: 39px;
+  border-radius: 50%;
+  background-color: grey;
+  position: relative;
+  top: -2px;
+  left: -2px;
+  transition-property: left, background-color;
+  transition-duration: 0.1s;
+  transition-timing-function: linear;
+}
+
+.sliderBallOn {
+  left: 54px;
+}
+
+.status {
+  font-size: 20px;
+}
+
+.friends {
+  height: 420px;
+  width: 390px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 0 10px;
+  justify-content: space-between;
+  box-sizing: border-box;
+  align-items: center;
+  box-shadow: 0 0 10px lightgrey;
+}
+
+.friendLine {
+  margin-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: solid 1px #EAEAEA;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.friendLine:last-child {
+  border-bottom: none;
+}
+
+.friendLineOne:hover {
+  cursor: pointer;
+}
+
+.friendProfile {
+  height: 90px;
+  width: 90px;
+  background-size: 100% 100%;
+}
+
+.profileOne {
+  background-image: url('port2.jpg');
+}
+
+.profileTwo {
+  background-image: url('profile-pic-1.jpg');
+}
+
+.profileThree {
+  background-image: url('profile-pic-2.jpg');
+}
+
+.profileFour {
+  background-image: url('profile-pic-3.jpg');
+}
+
+.friendName {
+  font-size: 27px;
+}
+
+.friendStatus {
+  height: 40px;
+  width: 40px;
+}
+
+.popupCorner {
+  position: relative;
+  top: -337px;
+}
+
+.popup {
+  height: 300px;
+  width: 390px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 0 10px;
+  justify-content: space-between;
+  box-sizing: border-box;
+  align-items: center;
+  /*box-shadow: 0 0 10px lightgrey;*/
+  position: relative;
+  top: -338px;
+  background-color: rgba(123, 167, 224,.9);
+}
+
+.option {
+  font-size: 26px;
+  color: white;
+  width: 227px;
+  height: 60px;
+  line-height: 50px;
+}
+
+.interviewP {
+  color: white;
+  padding-right: 0;
+}
+
+.themeP {
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.interviewDesc {
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.problemDesc {
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.badIdeaDesc {
+  width: 100%;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.prototypingDesc {
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.emeraldDesc {
+  /*width: 100%;*/
+  font-size: 24px;
+  font-family: 'Karla', sans-serif;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+/*.telegram, .sunkissed, .relay, .emeraldWater, .maldives, .chitty {
+  width: 100%;
+}*/
+
+
+
 }
